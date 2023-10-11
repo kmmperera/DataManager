@@ -1,0 +1,35 @@
+.homediv{
+	
+	display:flex;
+	min-height:65vh;
+}
+
+.contentdiv{
+	flex:4;
+	margin-top:10px;
+}
+.menudiv{
+	flex:1;
+	
+}
+
+.menuul{
+	background-color: #394264;
+	margin-top:10px;
+	border-radius:4px;
+
+}
+.menuul,.submenuul{
+	list-style:none;
+}
+.menuul li{
+	
+	padding:10px;
+}
+.menuul a{
+		color:white;
+
+	text-decoration:none;
+}
+.menuul > li:not(:last-child) { border-bottom: 1px solid grey; }
+

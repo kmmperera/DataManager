@@ -1,0 +1,9 @@
+.homediv{
+	
+	display:flex;
+}
+
+.contentdiv{
+	flex:4;
+	
+}
